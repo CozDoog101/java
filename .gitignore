@@ -1,0 +1,10 @@
+# Local JDK (VS Code uses it, but it doesn't belong in git)
+oracleJdk-27/
+
+# Compiled Java output
+*.class
+bin/
+out/
+
+# Misc
+.dist/
