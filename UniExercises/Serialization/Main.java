@@ -22,7 +22,6 @@ public class Main {
 
         serializeStudents(students);
 
-        // Simulate losing the data held in memory
         students = null;
 
         students = deserializeStudents();
@@ -44,7 +43,6 @@ public class Main {
 
     private static Student[] deserializeStudents() {
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(FILE_NAME))) {
-            // readObject() returns Object, so we cast it back to Student[]
             Student[] students = (Student[]) in.readObject();
             System.out.println("Students deserialized successfully!\n");
             return students;
