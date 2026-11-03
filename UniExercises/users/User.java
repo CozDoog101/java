@@ -1,3 +1,5 @@
+package users;
+
 public class User extends checking {
 
     public User(String Username, String Password) throws InvalidPasswordLengthException {

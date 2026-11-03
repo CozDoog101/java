@@ -1,3 +1,5 @@
+package arrays;
+
 public class App7 {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 2, 3, 2, 4};

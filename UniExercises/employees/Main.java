@@ -1,3 +1,5 @@
+package employees;
+
 public class Main {
 
     interface Manageable {

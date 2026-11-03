@@ -1,3 +1,5 @@
+package bookstack;
+
 import java.util.Scanner;
 
 public class Main {
