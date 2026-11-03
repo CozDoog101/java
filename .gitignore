@@ -9,3 +9,6 @@ out/
 # Misc
 .dist/
 *.log
+
+# Serialized data files
+*.ser
